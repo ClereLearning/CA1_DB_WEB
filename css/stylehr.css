@@ -1,0 +1,9 @@
+nav{
+    background-color: #87aab9;
+}
+.mnselected{
+    background-color: #e9e581;
+}
+nav a:hover{
+    background-color: #F9F3C5;
+}
