@@ -1,85 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">    
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- https://fontawesome.com/v4/license/ loading -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/css/stylehr.css">
+        <link rel="stylesheet" type="text/css" href="css/stylehr.css">
         <meta charset="UTF-8">
         <title>Department</title>
     </head>
     <body>
         <header>
-            <nav> 
-                <ol>
-                    <li><a class="mnselected" href="department.html">Department</a></li>
-                    <li><a href="jobtitle.html">Job Titles</a></li>
-                    <li><a href="employee.html">Employees</a></li>
-                    <li><a href="jobtitle_employee.html">Employees Job</a></li>
-                    <li><a href="salary.html">Salaries</a></li>
-                    <li><a href="department_employee.html">Department and Employees</a></li> 
-                    <li><a href="manager.html">Managers</a></li>
-                    <li><a href="department_manager.html">Department and Managers</a></li>                    
-                </ol>
+            <nav class="mmnav"> 
+               <!--menu inside index.html to make easy maintence it-->
             </nav>
         </header>
         <main>
-            <table>
-                <thead>
-                    <tr>
-                        <th scope="col"><i class="fa fa-key" aria-hidden="true"></i>ID</th>
-                        <th scope="col">Department Name</th>                    
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Human Resources</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Sales</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Marketing</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Finance</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Management</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Operations</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>IT</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Research</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>Customer Service</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Purchase</td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>Accounting</td>
-                    </tr>
-                </tbody>
-            </table>
+            <article class="articletable">
+                <header><h4>List of Departments </h4>  </header>
+                <main>
+                    <table>
+                        <caption></caption>
+                        <thead>
+                            <tr>
+                                <th scope="col"><i class="fa fa-key" style="color: gold;" aria-hidden="true"></i>ID</th>
+                                <th scope="col">Department Name</th>                    
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Human Resources</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Sales</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Marketing</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Finance</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Management</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Operations</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>IT</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Research</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Customer Service</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Purchase</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Accounting</td>
+                            </tr>
+                        </tbody>                       
+                    </table>
+                </main>
+                <footer>                   
+                </footer>
+            </article>
         </main>
         <footer>
-
         </footer>
     </body>
 </html>

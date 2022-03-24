@@ -1,9 +1,65 @@
-nav{
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mmnav li{
     background-color: #87aab9;
+    display:inline-block;
+    padding: 11px 14px;
+}
+
+.mmnav ul{
+    background-color: #87aab9;    
+}
+
+.mmnav a{
+    text-decoration: none;
+    padding: 11px 14px;
+    color:black;
 }
 .mnselected{
     background-color: #e9e581;
 }
-nav a:hover{
-    background-color: #F9F3C5;
+
+.mmnav a:hover{
+    text-decoration: none;
+    background-color: #F9F3C5;    
 }
+
+.mmnav a:visited {
+    text-decoration: none;
+  }
+
+  th{
+    text-align: center;
+    color:#87aab9;
+    padding: 16px;
+    background-color: #f2f2f2;
+  }
+
+  td {
+      text-align: left;
+      padding: 11px;
+  }
+  
+
+ tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+  table{
+      margin:auto;
+  }
+  .articletable 
+  {
+      text-align: center;
+      
+  }
+
+  .articletable footer li
+  {
+      text-align: center;
+      display:inline-block;
+        padding: 9px 10px;
+  }
+  
